@@ -28,4 +28,4 @@ http://localhost:3000
 
 8. Feel free to experiment with different configurations available:
 
-![Demo application view](../images/demo_app.png)
+![Demo application view](../images/demo_app.PNG)
