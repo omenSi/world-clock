@@ -1,7 +1,7 @@
 # Additional documentation
 
 ## Table of contents
-- [Class diagram](##class-diagram)
+- [Class diagram](#class-diagram)
 - [Deployment diagram](#deployment-diagram)
 - [Sequence diagrams](#sequence-diagrams)
     - [Open settings](#open-settings)
@@ -10,7 +10,7 @@
 
 ## Class diagram
 
-Class diagram of `WorldClock` widget source code. Descriptions are available in [here](./api/index.html).
+Class diagram of `WorldClock` widget source code. Descriptions are available in [here](https://omensi.github.io/world-clock/).
 
 ![Source code class diagram](../images/detailed_class_diagram.png)
 

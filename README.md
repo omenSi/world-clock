@@ -152,7 +152,7 @@ Class `WorldClock`:
 |setDateShow(value)|Validate and set flag, which controls if widget should show date field. Default value = `true`. |*value* - controls if widget should show date field.|*void*|
 |setTimeSecondsShow(value)|Validate and set flag, which controls if widget should show seconds. Default = `true`.|*value* - controls if widget should show seconds.|*void*|
 
-All documentation in regards to classes, methods and fields is available in `JSDoc` generated documents, which are listed [here](./docs/api/index.html).
+All documentation in regards to classes, methods and fields is available in `JSDoc` generated documents, which are listed [here](https://omensi.github.io/world-clock/).
 
 Additional documentation available [here](./docs/DOCS.md#additional-documentation).
 
