@@ -1,30 +1,30 @@
 # What is World Clock?
 
-If you need a `simple`, `easy to use`, `responsive` world clock widget for your project, then you came to the right place. World Clock is a **Frontend** (*UI*) widget, which is written using modern WEB technologies - *HTML5*, *CSS*, *JS*. It is as simple as it gets - you see time and date in the selected timezone. Widget was written in a *Plug-n-Play* fashion, you only need to import module code to your JS code and you are ready to go (almost), check out [Installation](##Installation) and [Examples](#Examples) for a reference. 
+If you need a `simple`, `easy to use`, `responsive` world clock widget for your project, then you came to the right place. World Clock is a **Frontend** (*UI*) widget, which is written using modern WEB technologies - *HTML5*, *CSS*, *JS*. It is as simple as it gets - you see time and date in the selected timezone. Widget was written in a *Plug-n-Play* fashion, you only need to import module code to your JS code and you are ready to go (almost), check out [Installation](#Installation) and [Examples](#Examples) for a reference. 
 
 Component can be used in all major browsers where ES5 standard is compliant. Source code is written in ES6, but is compiled with [Babel](https://babeljs.io/) to ES5.
 
 # Table of contents
 - [Description](#Description)
-    - [Purpose](##Purpose)
-    - [Functions](##Functions)
-    - [Restrictions](##Restrictions)
-    - [Dependancies](##Dependancies)
+    - [Purpose](#Purpose)
+    - [Functions](#Functions)
+    - [Restrictions](#Restrictions)
+    - [Dependancies](#Dependancies)
 - [Documentation](#Documentation)
-    - [Configurable attributes](##Configurable-attributes)
-        - [Required attributes](###Required-attributes)
-        - [Optional attributes](###Optional-attributes)
-    - [Classes, fields and methods](##Classes,-fields-and-methods)
-        - [Classes](###Classes)
-        - [Fields](###Fields)
-        - [Methods](###Methods)
-    - [Installation](##Installation)
+    - [Configurable attributes](#Configurable-attributes)
+        - [Required attributes](#Required-attributes)
+        - [Optional attributes](#Optional-attributes)
+    - [Classes, fields and methods](#Classes,-fields-and-methods)
+        - [Classes](#Classes)
+        - [Fields](#Fields)
+        - [Methods](#Methods)
+    - [Installation](#Installation)
 - [Examples](#Examples)
-    - [Usage guide](##Usage-guide)
+    - [Usage guide](#Usage-guide)
 - [Change log](#Change-log)
 - [License](#License)
 - [Appendix](#Appendix)
-    - [List of available timezones](##List-of-available-timezones)
+    - [List of available timezones](#List-of-available-timezones)
 
 # Description
 
@@ -111,7 +111,7 @@ Public API allows to only access `WorldClock` instance, its public fields and me
 
 <br>
 
-`WorldClock` - World Clock public API component, which allows to initialize widget with the defined [attributes](##Configurable-attributes).
+`WorldClock` - World Clock public API component, which allows to initialize widget with the defined [attributes](#Configurable-attributes).
 
 <br>
 
@@ -165,7 +165,7 @@ Additional documentation available [here](./docs/DOCS.md#additional-documentatio
 In order to use component you need to:
 
 1. Copy `/build/world_clock.js` file and paste it into your application source, for example `/static/components/world_clock` directory.
-2. Check [Dependancies](##Dependancies) and make sure they are met;
+2. Check [Dependancies](#Dependancies) and make sure they are met;
 3. Import `WorldClock` from the source to your JS;
 
 To start using World Clock widget you only need to import the JS of the component into your code base. Go to the footer of you HTML layout and add this line:
@@ -223,7 +223,7 @@ See live example (Express.Js application) in directory `/demo`, where you will b
 
 ## Usage guide
 
-1. We make sure to follow steps defined at [installation](##Installation).
+1. We make sure to follow steps defined at [installation](#Installation).
 2. We make sure that we correctly initialize world clock in our code following defined [examples](#Examples).
 3. We give some width/height for the container, which will hold our world clock.
 ```HTML
