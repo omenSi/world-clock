@@ -164,9 +164,12 @@ Additional documentation available [here](./docs/DOCS.md#additional-documentatio
 
 In order to use component you need to:
 
-1. Copy `/build/world_clock.js` file and paste it into your application source, for example `/static/components/world_clock` directory.
-2. Check [Dependancies](#dependancies) and make sure they are met;
-3. Import `WorldClock` from the source to your JS;
+1. Get the source code:
+    - Clone repository `git clone https://github.com/omenSi/world-clock.git` ;
+    - Install from **npm** `npm i @omensi/world_clock` .
+2. Copy `/build/world_clock.js` file and paste it into your application source, for example `/static/components/world_clock` directory.
+3. Check [Dependancies](#dependancies) and make sure they are met;
+4. Import `WorldClock` from the source to your JS;
 
 To start using World Clock widget you only need to import the JS of the component into your code base. Go to the footer of you HTML layout and add this line:
 
@@ -178,7 +181,7 @@ Note: `src` - should be equal to the path in your server public directory, where
 After this step `WorldClock` will be accessible in your code base, because library was exposed to the `window` object.
 
 
-4. Initialize `WorldClock` object with required attributes (see [Examples](#examples));
+5. Initialize `WorldClock` object with required attributes (see [Examples](#examples));
 
 
 # Examples
