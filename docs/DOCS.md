@@ -1,12 +1,12 @@
 # Additional documentation
 
 ## Table of contents
-- [Class diagram](##Class-diagram)
-- [Deployment diagram](##Deployment-diagram)
-- [Sequence diagrams](##Sequence-diagrams)
-    - [Open settings](###Open-settings)
-    - [Search for timezone](###Search-for-timezone)
-    - [Select timezone](###Select-timezone)
+- [Class diagram](##class-diagram)
+- [Deployment diagram](#deployment-diagram)
+- [Sequence diagrams](#sequence-diagrams)
+    - [Open settings](#open-settings)
+    - [Search for timezone](#search-for-timezone)
+    - [Select timezone](#select-timezone)
 
 ## Class diagram
 
