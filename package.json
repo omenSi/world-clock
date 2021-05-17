@@ -1,6 +1,6 @@
 {
   "name": "@omensi/world_clock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "If you need a `simple`, `easy to use`, `responsive` world clock widget for your project, then you came to the right place. World Clock is a **Frontend** (*UI*) widget, which is written using modern WEB technologies - *HTML5*, *CSS*, *JS*. It is as simple as it gets - you see time and date in the selected timezone. Widget was written in a *Plug-n-Play* fashion, you only need to import module code to your JS code and you are ready to go (almost), check out [Installation](##Installation) and [Examples](#Examples) for a reference.",
   "main": "build/world_clock.js",
   "files": [
