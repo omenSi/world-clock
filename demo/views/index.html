@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
+<html>
+
+<head>
+    <style>
+        .demo-container {
+            width: 300px;
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="worldClockContainer" class="demo-container"></div>
+    <div>
+        <label style="margin-right: 1rem;">Theme:</label>
+        <label>Light</label><input type="radio" name="theme" value="light" checked data-act="changeTheme">
+        <label>Dark</label><input type="radio" name="theme" value="dark" data-act="changeTheme">
+    </div>
+    <div>
+        <label style="margin-right: 1rem;">Show date:</label>
+        <label>Yes</label><input type="radio" name="showData" value="true" checked data-act="changeShowDate">
+        <label>No</label><input type="radio" name="showData" value="false" data-act="changeShowDate">
+    </div>
+    <div>
+        <label style="margin-right: 1rem;">Show time seconds:</label>
+        <label>Yes</label><input type="radio" name="showSeconds" value="true" checked data-act="changeShowTimeSeconds">
+        <label>No</label><input type="radio" name="showSeconds" value="false" data-act="changeShowTimeSeconds">
+    </div>
+</body>
+<footer>
+    <script src="components/world_clock/world_clock.js"></script>
+    <script type="module" src="js/index.js"></script>
+</footer>
+
+</html>

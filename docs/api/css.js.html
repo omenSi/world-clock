@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: css.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: css.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import { Images } from "./utils.js";
+
+/**
+ * Widget CSS code, which is added to the document on creation.
+ */
+export const CSS = `
+._world-clock-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+._world-clock-wrapper._world-clock-theme-light {
+    background: rgb(240, 240, 240);
+    color: #191818;
+}
+
+._world-clock-wrapper._world-clock-theme-dark {
+    background: #191818;
+    color: #EEE;
+}
+
+._world-clock-wrapper._world-clock-theme-light ._world-clock-menu-image {
+    background-image: url("data:image/svg+xml;utf8,${Images.SettingsDark}");
+}
+
+._world-clock-wrapper._world-clock-theme-dark ._world-clock-menu-image {
+    background-image: url("data:image/svg+xml;utf8,${Images.SettingsLight}");
+}
+
+._world-clock-wrapper._world-clock-theme-dark ._world-clock-menu {
+    background: #191818;
+    color: #EEE;
+}
+
+._world-clock-wrapper._world-clock-theme-light ._world-clock-menu {
+    background: rgb(240, 240, 240);
+    color: #191818;
+}
+
+._world-clock-wrapper._world-clock-theme-dark ._world-clock-menu-search-input {
+    background: #191818;
+    color: #EEE;
+}
+
+._world-clock-wrapper._world-clock-theme-light ._world-clock-menu-search-input {
+    background: rgb(240, 240, 240);
+    color: #191818;
+}
+
+._world-clock-time-date {
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+._world-clock-current-timezone {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+._world-clock-current-time {
+    white-space: nowrap;
+}
+
+._world-clock-date {
+    white-space: nowrap;
+}
+
+._world-clock-menu-toggle {
+    margin-left: .2rem;
+    width: .8rem;
+    height: .8rem;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+._world-clock-menu-image {
+    background-image: url("data:image/svg+xml;utf8,${Images.SettingsLight}");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+._world-clock-menu-image:hover,
+._world-clock-menu-image:focus {
+    animation: _world-clock-menu-rotation 5s infinite linear;
+}
+
+._world-clock-hidden {
+    display: none;
+    visibility: hidden;
+}
+
+._world-clock-menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    overflow: hidden;
+}
+
+._world-clock-menu-search-wrapper {
+    height: 2rem;
+    width: 100%;
+}
+
+._world-clock-menu-close {
+    float: right;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 0 .5rem;
+    width: 1rem;
+    line-height: 1.4;
+    height: 100%;
+}
+
+._world-clock-menu-close:hover,
+._world-clock-menu-close:focus {
+    color: red;
+}
+
+._world-clock-menu-search-input {
+    border: none;
+    background: #eee;
+    padding: .5rem;
+    outline: none;
+    width: calc(100% - 3rem);
+}
+
+._world-clock-menu-search-wrapper:focus-within::after {
+    transform: scaleX(1);
+}
+
+._world-clock-menu-search-wrapper:after {
+    display:block;
+    content: '';
+    border-bottom: 2px solid rgb(255, 0, 128);
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+
+._world-clock-menu-timezone-list-wrapper {
+    width: 100%;
+    height: calc(100% - 2rem);
+}
+
+._world-clock-menu-timezone-list {
+    list-style: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    margin-top: 2px;
+}
+
+._world-clock-menu-group {
+    font-weight: bold;
+    margin: 0.5rem;
+}
+
+._world-clock-menu-region {
+    margin: 0.25rem 1.5rem;
+}
+
+._world-clock-menu-city {
+    margin: 0.25rem 2.5rem;
+}
+
+._world-clock-selectable {
+    cursor: pointer;
+}
+
+._world-clock-selectable:hover {
+    text-decoration: underline;
+}
+
+
+@keyframes _world-clock-menu-rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+`;</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Clock.html">Clock</a></li><li><a href="ClockLocalStorage.html">ClockLocalStorage</a></li><li><a href="Datatype.html">Datatype</a></li><li><a href="Images.html">Images</a></li><li><a href="Menu.html">Menu</a></li><li><a href="TemplateBuilder.html">TemplateBuilder</a></li><li><a href="TimezoneCity.html">TimezoneCity</a></li><li><a href="TimezoneGroup.html">TimezoneGroup</a></li><li><a href="TimezoneList.html">TimezoneList</a></li><li><a href="TimezoneObject.html">TimezoneObject</a></li><li><a href="TimezoneRegion.html">TimezoneRegion</a></li><li><a href="TimezoneSearch.html">TimezoneSearch</a></li><li><a href="Utils.html">Utils</a></li><li><a href="WidgetFace.html">WidgetFace</a></li><li><a href="WorldClockError.html">WorldClockError</a></li></ul><h3>Global</h3><ul><li><a href="global.html#CSS">CSS</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.6</a> on Mon May 17 2021 12:24:32 GMT+0300 (Rytų Europos vasaros laikas)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

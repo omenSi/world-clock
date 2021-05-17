@@ -1,0 +1,49 @@
+{
+  "name": "@omensi/world_clock",
+  "version": "1.0.0",
+  "description": "If you need a `simple`, `easy to use`, `responsive` world clock widget for your project, then you came to the right place. World Clock is a **Frontend** (*UI*) widget, which is written using modern WEB technologies - *HTML5*, *CSS*, *JS*. It is as simple as it gets - you see time and date in the selected timezone. Widget was written in a *Plug-n-Play* fashion, you only need to import module code to your JS code and you are ready to go (almost), check out [Installation](##Installation) and [Examples](#Examples) for a reference.",
+  "main": "build/world_clock.js",
+  "files": [
+    "build/",
+    "component_source/",
+    "demo/{bin,public,views}/**/*",
+    "demo/*.{js,json,md}",
+    "docs/",
+    "images/",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "webpack.config.js"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "^7.14.1",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build-live": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omenSi/world-clock.git"
+  },
+  "keywords": [
+    "js",
+    "front-end",
+    "clock",
+    "world-clock",
+    "responsive",
+    "web"
+  ],
+  "author": "omensi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/omenSi/world-clock/issues"
+  },
+  "homepage": "https://github.com/omenSi/world-clock#readme"
+}
