@@ -265,7 +265,18 @@ See live example (Express.Js application) in directory `/demo`, where you will b
 
 # Change Log
 - v1.0
-    - Initial project release.
+    - v1.0.0
+        - Initial project release.
+    - v1.0.1
+        - Readme updates.
+    - v1.0.2
+        - Readme updates.
+    - v1.0.3
+        - Added Github Pages to serve JSDoc documentation. See [here](https://omensi.github.io/world-clock/) 
+    - v1.0.4
+        - Readme updates.
+    - v1.0.5
+        - Readme updates.
 
 
 # License
